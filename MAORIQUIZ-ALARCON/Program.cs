@@ -63,5 +63,31 @@ static void play()
             start();
         }
     }
-}
+    void endscore()
+    {
+        //this will indicate the total score and will give a particular message.
+        Console.WriteLine("Your total score is " + point);
+        if (point < 5)
+        {
+            Console.WriteLine($"Nice try {name}, you still did your best, you just need a little more practice.");
+        }
+        else if (point > 5)
+        {
+            Console.WriteLine($"Good job {name}, you did great on this quiz!");
+        }
+        Console.WriteLine("\nCongratulations on finishing the quiz!\n\nIf you want to try another level press s, but if you want to exit thi program press any oter key\n");
+
+        string restart = Console.ReadLine();
+
+        if (restart == "s")
+        {
+            Console.Clear();
+            start();
+        }
+        else
+        {
+            Console.Write("Thank you very much for using his program, I hope you had fun!\n\npress enter to exit.");
+            Environment.Exit(0);
+        }
+    }
 }
