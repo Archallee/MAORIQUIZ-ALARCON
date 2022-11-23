@@ -24,5 +24,16 @@ static void play()
     int point = 0;
 
     Console.Clear();
+    Console.WriteLine("Welcome to the Maori Quiz!\nWhat\'s your name?");
 
+    string name = Console.ReadLine();
+
+    Console.WriteLine($"Okay {name}, This multiple choice quiz will contain 3 levels and 10 questions");
+    Console.WriteLine($"Make sure to read each question carefully,\nGoodluck {name.ToUpper()}!");
+    start();
+
+    void start()
+    {
+
+    }
 }
