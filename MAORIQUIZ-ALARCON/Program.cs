@@ -34,6 +34,34 @@ static void play()
 
     void start()
     {
+        Console.WriteLine("Please choose a level you want to answer:\n1. Easy\n2. Medium\n3. Hard");
+        int chose = (Convert.ToInt32(Console.ReadLine()));
+        while (!int.TryParse(Console.ReadLine(), out chose) || chose <= 0 || chose >= 4)
+        {
+            Console.WriteLine("Please enter a valid number");
+        }
+        Console.WriteLine(chose);
+        Console.Clear();
 
+        if (chose == 1)
+        {
+            level1();
+        }
+
+        else if (chose == 2)
+        {
+            level2();
+        }
+
+        else if (chose == 3)
+        {
+            level3();
+        }
+        else
+        {
+            Console.WriteLine("Please enter a valid option");
+            start();
+        }
     }
+}
 }
