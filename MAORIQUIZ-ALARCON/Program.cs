@@ -90,4 +90,209 @@ static void play()
             Environment.Exit(0);
         }
     }
+    void level1()
+    {
+        Console.WriteLine("1. On sunny days we need to wear a pōtae on our heads. What is a pōtae? \nA. GLASSES\nB. HAT\nC. SCARF\nD. WIG");
+        Console.WriteLine("Answer: ");
+        answer = Console.ReadLine();
+        while (answer != "A" && answer != "B" && answer != "C" && answer != "D")
+        {
+            Console.WriteLine("Please write a valid answer from the choices. Make sure that your answer is in upper case.");
+            answer = Console.ReadLine();
+        }
+        Console.Clear();
+
+        if (answer == "D")
+        {
+            point += 1;
+            Console.WriteLine("Correct");
+        }
+        else
+        {
+            point += 0;
+            Console.WriteLine("Incorrect");
+        }
+        Console.WriteLine("2. E tū and e noho are...\nA. JUMP AND DANCE\nB. RUN AND WALK\nC. CLAP AND LAUGH\nD. STAND UP AND SIT DOWN");
+        Console.WriteLine("Answer: ");
+        answer = Console.ReadLine();
+        while (answer != "A" && answer != "B" && answer != "C" && answer != "D")
+        {
+            Console.WriteLine("Please write a valid answer from the choices. Make sure that your answer is in upper case.");
+            answer = Console.ReadLine();
+        }
+        Console.Clear();
+
+        if (answer == "D")
+        {
+            point += 1;
+            Console.WriteLine("Correct");
+        }
+        else
+        {
+            point += 0;
+            Console.WriteLine("Incorrect");
+        }
+        Console.WriteLine("3. Tamariki are like a map of their own parents. What is Tamariki?\nA. ADULTS\nB. CHILDREN\nC. TREES\nD. LAKES");
+        Console.WriteLine("Answer: ");
+        answer = Console.ReadLine();
+        while (answer != "A" && answer != "B" && answer != "C" && answer != "D")
+        {
+            Console.WriteLine("Please write a valid answer from the choices. Make sure that your answer is in upper case.");
+            answer = Console.ReadLine();
+        }
+        Console.Clear();
+
+        if (answer == "B")
+        {
+            point += 1;
+            Console.WriteLine("Correct");
+        }
+        else
+        {
+            point += 0;
+            Console.WriteLine("Incorrect");
+        }
+        Console.WriteLine("4. The colour of the bag is as kākāriki as a plant. What is kākāriki?\nA. PINK\nB. YELLOW\nC. GREEN\nD. BLUE");
+        Console.WriteLine("Answer: ");
+        answer = Console.ReadLine();
+        while (answer != "A" && answer != "B" && answer != "C" && answer != "D")
+        {
+            Console.WriteLine("Please write a valid answer from the choices. Make sure that your answer is in upper case.");
+            answer = Console.ReadLine();
+        }
+        Console.Clear();
+
+        if (answer == "C")
+        {
+            point += 1;
+            Console.WriteLine("Correct");
+        }
+        else
+        {
+            point += 0;
+            Console.WriteLine("Incorrect");
+        }
+        Console.WriteLine("5. What animal is a Hoiho?\nA. GOAT\nB. HORSE\nC. PIGEON\nD. CAT");
+        Console.WriteLine("Answer: ");
+        answer = Console.ReadLine();
+        while (answer != "A" && answer != "B" && answer != "C" && answer != "D")
+        {
+            Console.WriteLine("Please write a valid answer from the choices. Make sure that your answer is in upper case.");
+            answer = Console.ReadLine();
+        }
+        Console.Clear();
+
+        if (answer == "B")
+        {
+            point += 1;
+            Console.WriteLine("Correct");
+        }
+        else
+        {
+            point += 0;
+            Console.WriteLine("Incorrect");
+        }
+        Console.WriteLine("6. Moana greets Mōrena to her neighbours everyday at 7am. What is Mōrena?\nA. GOODBYE\nB. MORE PLEASE\nC. STAY THERE\nD. GOOD MORNING");
+        Console.WriteLine("Answer: ");
+        answer = Console.ReadLine();
+        while (answer != "A" && answer != "B" && answer != "C" && answer != "D")
+        {
+            Console.WriteLine("Please write a valid answer from the choices. Make sure that your answer is in upper case.");
+            answer = Console.ReadLine();
+        }
+        Console.Clear();
+
+        if (answer == "D")
+        {
+            point += 1;
+            Console.WriteLine("Correct");
+        }
+        else
+        {
+            point += 0;
+            Console.WriteLine("Incorrect");
+        }
+        Console.WriteLine("7. I'm hungry. can we get some kai? What is kai?\nA. CLOTHES\nB. FOOD\nC. TOYS\nD. SLEEP");
+        Console.WriteLine("Answer: ");
+        answer = Console.ReadLine();
+        while (answer != "A" && answer != "B" && answer != "C" && answer != "D")
+        {
+            Console.WriteLine("Please write a valid answer from the choices. Make sure that your answer is in upper case.");
+            answer = Console.ReadLine();
+        }
+        Console.Clear();
+
+        if (answer == "B")
+        {
+            point += 1;
+            Console.WriteLine("Correct");
+        }
+        else
+        {
+            point += 0;
+            Console.WriteLine("Incorrect");
+        }
+        Console.WriteLine("8. The color of the flamingo is māwhero. What is māwhero?\nA. RED\nB. GREEN\nC. PINK\nD. YELLOW");
+        Console.WriteLine("Answer: ");
+        answer = Console.ReadLine();
+        while (answer != "A" && answer != "B" && answer != "C" && answer != "D")
+        {
+            Console.WriteLine("Please write a valid answer from the choices. Make sure that your answer is in upper case.");
+            answer = Console.ReadLine();
+        }
+        Console.Clear();
+
+        if (answer == "C")
+        {
+            point += 1;
+            Console.WriteLine("Correct");
+        }
+        else
+        {
+            point += 0;
+            Console.WriteLine("Incorrect");
+        }
+        Console.WriteLine("9. What animal is a poaka?\nA. DUCK\nB. MOUSE\nC. TIGER\nD. PIG");
+        Console.WriteLine("Answer: ");
+        answer = Console.ReadLine();
+        while (answer != "A" && answer != "B" && answer != "C" && answer != "D")
+        {
+            Console.WriteLine("Please write a valid answer from the choices. Make sure that your answer is in upper case.");
+            answer = Console.ReadLine();
+        }
+        Console.Clear();
+
+        if (answer == "D")
+        {
+            point += 1;
+            Console.WriteLine("Correct");
+        }
+        else
+        {
+            point += 0;
+            Console.WriteLine("Incorrect");
+        }
+        Console.WriteLine("10. The color of her hair is like wood, it's Parauri. What is Parauri?\nA. BLACK\nB. GREY\nC. BROWN\nD. GREEN");
+        Console.WriteLine("Answer: ");
+        answer = Console.ReadLine();
+        while (answer != "A" && answer != "B" && answer != "C" && answer != "D")
+        {
+            Console.WriteLine("Please write a valid answer from the choices. Make sure that your answer is in upper case.");
+            answer = Console.ReadLine();
+        }
+        Console.Clear();
+
+        if (answer == "C")
+        {
+            point += 1;
+            Console.WriteLine("Correct");
+        }
+        else
+        {
+            point += 0;
+            Console.WriteLine("Incorrect");
+        }
+        endscore();
+    }
+        
 }
